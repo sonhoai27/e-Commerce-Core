@@ -1,0 +1,14 @@
+:root {
+    --sh-grey: #444950;
+    --sh-primary: #4267b2;
+    --sh-second: #4b4f56;
+    --sh-yellow: rgb(255, 204, 0);
+    --sh-orange: rgb(255, 128, 81);
+    --sh-green: rgb(66, 183, 42);
+}
+body {
+    background: #f0f0f0;
+}
+address, dl, ol, ul {
+    margin-bottom: 0;
+}

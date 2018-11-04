@@ -1,0 +1,42 @@
+/* tslint:disable */
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "outDir": "target/www/app",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/main/webapp/app/typing.d.ts",
+    "src/main/webapp/app/**/*",
+    "src/test/javascript/**/*"
+  ],
+  "paths": {
+    "*": [ "node_modules/@types/*", "*"]
+  },
+  "typeRoots": [ "./node_modules/@types" ],
+  "exclude": [
+    "public",
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpacks",
+    "src/setupTests.ts"
+  ]
+}
